@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <title>Sistema Acadêmico - Usuários</title>
+</head>
+
+<body>
+  <header>
+    <h1>Sistema Acadêmico</h1>
+  </header>
+
+  <div class="linha">
+    <div id="acesso-servidor">
+      <h2>Acesso administrativo</h2>
+
+      <form id="area-login">
+        <label>
+          Login
+          <br />
+          (nome.sobrenome)
+        </label>
+        <div>
+          <input type="text" required />
+          <div class="chaveiro">
+            <img class="chave" src="/img/assets/chave.png" alt="Ícone de um hexágono cinza presidindo uma chave redonda" />
+          </div>
+        </div>
+
+        <label>Senha</label>
+        <div>
+          <input type="password" required />
+          <div class="chaveiro">
+            <img class="chave" src="/img/assets/chave.png" alt="Ícone de um hexágono cinza presidindo uma chave redonda" />
+          </div>
+        </div>
+      
+        <a href="#">Esqueceu sua senha?</a>
+
+        <button id="botao-login">
+          <span>Entrar</span>
+        </button>
+      </form>
+
+      <div class="alternativa">
+        <div class="linha-divisoria">
+          <hr />
+        </div>
+
+        <div id="div-texto-ou">
+          <span>ou</span>
+        </div>
+
+        <div class="linha-divisoria">
+          <hr />
+        </div>
+      </div>
+
+      <button id="botao-gov">
+        <span>Entrar com</span>
+        <img src="./assets/gov.png" alt="gov.br" />
+      </button>
+    </div>
+
+    <div id="acesso-aluno">
+      <h2>Acesso Estudantil / Responsável</h2>
+      <button id="botao-area-estudante">Área do Estudante</button>
+
+      <h3>Acompanhe o desenvolvimento do Sistema Acadêmico</h3>
+      <button id="botao-planilha-requisitos">Planilha com Requisitos</button>
+    </div>
+  </div>
+</body>
+
+</html>
